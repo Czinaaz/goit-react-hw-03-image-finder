@@ -7,7 +7,6 @@
   height: 100vh;
   top: 0;
   left: 0;
-
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 1200;
 }
@@ -15,7 +14,7 @@
 .modal {
   max-width: calc(100vw - 100px);
   max-height: calc(100vh - 100px);
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -38,8 +37,8 @@
   line-height: 30px;
   border-radius: 50%;
   padding: 15px 25px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(1, 1, 1);
+  background-color: #3f51b5;
+  color: azure;
   cursor: pointer;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -47,6 +46,6 @@
 .buttonMod:focus,
 .buttonMod:hover {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #3f51b5;
-  color: azure;
+  background-color: yellow;
+  color: black;
 }

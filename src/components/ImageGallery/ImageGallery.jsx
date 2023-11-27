@@ -68,7 +68,7 @@ class ImageGallery extends Component {
       return <p>{error}</p>;
     }
     if (!imageList.length) {
-      return <p>{`Please, enter the search request`}</p>;
+      return <p className={css.textGallery}>{`Please, enter the search request`}</p>;
     }
     if (status === STATUS.success) {
       return (

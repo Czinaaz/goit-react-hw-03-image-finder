@@ -5,10 +5,21 @@ ul {
     grid-gap: 16px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 0;
+    padding: 10px 30px;
     list-style: none;
     margin-left: auto;
     margin-right: auto;
+}
+
+.textGallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
 }
 
 .loader {
